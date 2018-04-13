@@ -1,10 +1,8 @@
-
-
-
-# 搭建TeamTalk服务器
-
-*   [IM](/tags/IM/)
-*   [TeamTalk](/tags/TeamTalk/)
+---
+title: 搭建TeamTalk服务器
+date: 2018-04-13 10:27:20
+tags: [IM,TeamTalk]
+---
 
 之前一直都留意TeamTalk，蘑菇街的开源IM，但是一直没有时间去研究，这段时间利用了晚上的空闲时间来学习和进行二次开发，接下来一段时间我会慢慢介绍我踩过的坑。
 
@@ -13,6 +11,8 @@
 我是用mac + virtualbox + Clion（不错的c++编辑器）
 同时我也参考了蓝狐的教程[http://www.bluefoxah.org/teamtalk/new_tt_deploy.html](http://www.bluefoxah.org/teamtalk/new_tt_deploy.html)
 在这里谢谢大神开源精神。
+
+<!-- more -->
 
 首先虚拟机装centos7，这里我就不详细说了，看文章 [http://www.aiplaypc.com/102.html](http://www.aiplaypc.com/102.html)
 
