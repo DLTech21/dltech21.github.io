@@ -61,6 +61,8 @@ compile 'io.github.dltech21:pdfgo:1.0.0'
 进入项目页，点击Add to JCenter，然后坐等jcenter的审核通过
 ![](/assets/img/bintraysync.png)
 
+通常几个小时后你会收到回复
+![](/assets/img/bintrayok.png)
 
-
+这样我们就不再需要在根目录下的gradle添加私有的maven地址
 
