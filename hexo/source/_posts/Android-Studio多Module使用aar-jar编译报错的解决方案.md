@@ -3,7 +3,7 @@ title: Android Studio多Module使用aar/jar编译报错的解决方案
 date: 2018-04-24 16:12:57
 tags: [Android, aar, jar]
 ---
-# 多Module中使用aar编译报错
+## 多Module中使用aar编译报错
 
 在开发Android App的时候，如果项目比较复杂，都可能会有很多个 <code class="highlighter-rouge">library</code>  工程，考虑如下场景：
 
@@ -62,7 +62,7 @@ allprojects {
 
 方案二比较完美地解决了多 module 引用 aar 库的问题，推荐使用这种方法
 
-# 多Module中使用jar编译报错
+## 多Module中使用jar编译报错
 
 解决方法: 将任意一个Module中的jar依赖为compile files('your jar name')，其他需要依赖的地方改为provided files('your jar name')。即可  下面详细介绍为什么这样做以及案例
 

@@ -8,7 +8,7 @@ tags: [mac,sed,Jenkins]
 
 在网上搜索一圈后，暂时采用下面的方式来修改
 
-```
+```bash
 #! 替换demo里面app的build.gradle的aar引用
 #! mac 在关键字一行后添加新的一行,gdcasdk为目标aar的前缀
 sed -i '' '/'"compile(name: 'gdcasdk"'/a\
@@ -22,4 +22,4 @@ sed -i '' 's/tempdfds34/'"compile(name: '${aarNameforCompile}', ext: 'aar')"'/g'
 
 上面的思路就是通过替换的方式来修改，如有更简短的shell命令请告知，谢谢
 
-ps：可以采用python
+ps：可以采用[python](https://dltech21.github.io/2018/04/26/Jenkins-python%E6%AD%A3%E5%88%99%E4%BF%AE%E6%94%B9%E5%86%85%E5%AE%B9/)
