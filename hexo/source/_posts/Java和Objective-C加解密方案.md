@@ -6,7 +6,7 @@ tags: [每日小技巧, Java, Android, iOS, 服务器]
 
 相信在做移动开发的时候都会遇到请求加密的问题，那么如何保证服务器端、前端(Android、iOS)加解密算法一致就是坑。服务器通常也是采用Java开发的，那么其实就是要保证Java和Objective-C算法一致。
 
-经过我的研究以及采坑，下面有一个简单的方案。
+经过我的研究以及采坑，下面有一个简单的方案。另外还有一个[aes的方案](https://github.com/DLTech21/libsecurity)
 <!--more-->
 ### Java端
 

@@ -1,7 +1,7 @@
 ---
 title: 利用bintray-release上传自己的library
 date: 2018-04-13 10:27:20
-tags: Android
+tags: [Android, bintray]
 ---
 
 前提条件：申请一个bintray的账号、一个library库

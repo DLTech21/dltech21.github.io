@@ -10,7 +10,10 @@ tags: [React Native, 技巧]
 [学习文章](https://juejin.im/post/5898388b128fe1006cb943e3)
 
 ### unable to load script from assets index.android.bundle
-解决方案
+
+若提示adb command not found则需要添加环境变量
+
+若不是则执行下面的：
 
 in project directory
 
