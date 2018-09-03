@@ -9,7 +9,9 @@ tags: [Android, Tablayout]
 # 0. 老规矩，先放效果图
 
 
-![图片描述](https://github.com/zjw-swun/AppOrder/blob/master/images/1.gif)
+![图片描述](https://github.com/zjw-swun/AppOrder/blob/master/images/1.gif?raw=true)
+
+<!-- more -->
 
 # 1. 骚操作之一：copy support包TabLayout 一份当做自己的自定义view
 本次骚操作是基于support '27.1.0'版本，从support '27.1.0'拷出文件到我的项目目录如下图，蓝色部分，四个文件，当然不是一帆风顺的，需要改点包名，取消掉一下注解警告，总之后面会放出源码
@@ -17,7 +19,7 @@ tags: [Android, Tablayout]
 ![](https://user-gold-cdn.xitu.io/2018/4/5/16291cbabfc62690?w=396&h=215&f=png&s=15889)
 不同的版本可能需要拷贝出来的文件不一样哟，于support '27.1.0'版本需要拷出上图蓝色的4个文件
 
-# 2. 骚操作之二： fuck源代码，读懂之后开始改造
+# 2. 骚操作之二： fork源代码，读懂之后开始改造
 首先指示器的线是画出来的，关键代码如下 （以下改动代码均为tabLayout类）
 
 ![](https://user-gold-cdn.xitu.io/2018/4/5/16291d279361e0c7?w=1396&h=521&f=png&s=116077)

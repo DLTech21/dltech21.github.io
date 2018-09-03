@@ -16,6 +16,8 @@ synchronized是Java中的关键字，是一种同步锁。它修饰的对象有�
 
 本文从使用技巧来总结synchronized的常用方法
 
+<!-- more -->
+
 ### 实现支持高并发且线程安全的单例
 
 ```java
